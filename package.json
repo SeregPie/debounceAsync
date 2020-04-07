@@ -1,0 +1,27 @@
+{
+	"name": "@seregpie/debounce-async",
+	"version": "1.0.0",
+	"description": "Creates a debounced function.",
+	"keywords": [
+		"async",
+		"debounce",
+		"delay",
+		"function",
+		"promise"
+	],
+	"license": "MIT",
+	"author": "Sergej Sintschilin <seregpie@gmail.com>",
+	"files": [],
+	"main": "index.js",
+	"repository": "github:SeregPie/debounceAsync",
+	"scripts": {
+		"build": "rollup -c",
+		"prepublishOnly": "npm run build",
+		"test": "node test"
+	},
+	"devDependencies": {
+		"@rollup/plugin-buble": "^0.21.1",
+		"rollup": "^2.3.3",
+		"rollup-plugin-terser": "^5.3.0"
+	}
+}
